@@ -1,0 +1,29 @@
+#table1 td:nth-child(odd), #table2 td:nth-child(odd), #table3 td:nth-child(odd) {
+    background-color: lightblue;
+}
+#table1 td:nth-child(even), #table2 td:nth-child(even), #table3 td:nth-child(even) {
+    background-color: lightpink;
+}
+#table1 td:nth-child(odd), #table2 td:nth-child(odd), #table3 td:nth-child(odd) {
+    background-color: lightblue;
+}
+#table1 td:nth-child(even), #table2 td:nth-child(even), #table3 td:nth-child(even) {
+    background-color: lightpink;
+}
+
+
+#table2 td:nth-child(2n) {
+  background-color: black;
+}
+
+#table2 td:nth-child(2n + 1) {
+  background-color: white;
+}
+
+#table2 tr:nth-child(2n) td {
+  background-color: black;
+}
+
+#table2 tr:nth-child(2n) td {
+  background-color: white;
+}
